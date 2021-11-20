@@ -1,5 +1,7 @@
 import React, { useRef } from "react";
 
+/////used for reference purpose
+
 function RefTutorial() {
   const inputRef = useRef(null);
 
