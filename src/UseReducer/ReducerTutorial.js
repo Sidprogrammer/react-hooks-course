@@ -1,5 +1,8 @@
 import React, { useReducer } from "react";
 
+
+////Used when we want to change multiple states at the same time. Instead of using different useStatem we use useReducer
+
 const reducer = (state, action) => {
   switch (action.type) {
     case "INCREMENT":
