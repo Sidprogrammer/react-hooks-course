@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
+///useEffect is called when the page is rendered and used for making initial API calls
+
 function EffectTutorial() {
   const [data, setData] = useState("");
   const [count, setCount] = useState(0);
